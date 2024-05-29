@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+}
+.rada{
+    display: flex;
+    justify-content: center;
+}
+
+.karta{
+    margin: 10px;
+    border: solid black 4px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    
+}
+
+.radahrac{
+    display: flex;
+    justify-content: center;
+}
+
+.aktualita{
+    border-radius: 25px;
+    background-color: grey;
+    width: 500px;
+    text-align: center;
+    height: 50px;
+    border:solid black 2px;
+}
+
+.bod{
+    display: flex;
+    justify-content: center;
+}
+
+.hrac1,.hrac2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: grey;
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    border:solid black 2px;
+}
+
+#karta1{
+    background-color: aqua;
+}
+#karta2{
+    background-color: aqua;
+}
+#karta3{
+    background-color: aqua;
+}
+#karta4{
+    background-color: aqua;
+}
+#karta5{
+    background-color: aqua;
+}
+#karta6{
+    background-color: aqua;
+}
+#karta7{
+    background-color: aqua;
+}
+#karta8{
+    background-color: aqua;
+}
+#karta9{
+    background-color: aqua;
+}
+#karta10{
+    background-color: aqua;
+}
+#karta11{
+    background-color: aqua;
+}
+#karta12{
+    background-color: aqua;
+}
+#karta13{
+    background-color: aqua;
+}
+#karta14{
+    background-color: aqua;
+}
+#karta15{
+    background-color: aqua;
+}
+#karta16{
+    background-color: aqua;
+}
+
