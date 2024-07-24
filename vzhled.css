@@ -1,12 +1,17 @@
 h1{
     text-align: center;
+    font-family: cursive;
 }
 .rada{
     display: flex;
     justify-content: center;
 }
+body{
+    background-color: #cefdff;
+}
 
 .karta{
+    font-family: cursive;
     margin: 10px;
     border: solid black 4px;
     width: 100px;
@@ -15,7 +20,7 @@ h1{
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 70px;
     
 }
 
@@ -25,12 +30,15 @@ h1{
 }
 
 .aktualita{
+    font-family: cursive;
+    font-size: 35px;
     border-radius: 25px;
-    background-color: grey;
+    background-color: #a288e3;
     width: 500px;
     text-align: center;
     height: 50px;
-    border:solid black 2px;
+    border:solid black 4px;
+    margin: 10px;
 }
 
 .bod{
@@ -38,64 +46,67 @@ h1{
     justify-content: center;
 }
 
-.hrac1,.hrac2{
+#body2,#body1{
+    margin-top: 0px;
+    font-family: cursive;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 5px;
     border-radius: 25px;
-    background-color: grey;
+    background-color: #a288e3;
     width: 250px;
-    text-align: center;
-    height: 50px;
-    border:solid black 2px;
+    height: 70px;
+    border:solid black 4px;
+    font-size: 35px;
 }
 
 #karta1{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta2{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta3{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta4{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta5{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta6{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta7{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta8{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta9{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta10{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta11{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta12{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta13{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta14{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta15{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 #karta16{
-    background-color: aqua;
+    background-color: #ccffcb;
 }
 

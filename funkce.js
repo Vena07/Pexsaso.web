@@ -17,7 +17,7 @@ let karta15s = "";
 let karta16s = "";
 let karty = ["tady nic nehledej ;)",karta1s,karta2s,karta3s,karta4s,karta5s,karta6s,karta7s,karta8s,karta9s,karta10s,karta11s,karta12s,karta13s,karta14s,karta15s,karta16s];
 let poradi = 1;
-let narade = "hrac1";
+let narade = "Hráč 1";
 let rada1 = 1;
 let hrac1 = 0;
 let hrac2 = 0;
@@ -31,11 +31,11 @@ let uloz2 = null;
 function rada(){
     if(rada1 === 1){
         rada1 = 2;
-        narade = "hrac1";
+        narade = "Hráč 1";
 
     } else if(rada1 === 2){
         rada1 = 1;
-        narade = "hrac2";
+        narade = "Hráč 2";
 
     }
 }
@@ -81,19 +81,24 @@ function otoceni(id,x){
                     aktualita.innerHTML = "Na řade " + narade;
                     let vraceni = document.getElementById(uloz1);
                     vraceni.innerHTML = "" ;
-                    vraceni.style.backgroundColor ='aqua';
+                    vraceni.style.backgroundColor ='#ccffcb';
                     vraceni = document.getElementById(uloz2);
                     vraceni.innerHTML = "" ;
-                    vraceni.style.backgroundColor ='aqua';
+                    vraceni.style.backgroundColor ='#ccffcb';
                 }, 500);
                 
             }
             kontrol = hrac1 + hrac2;
             if(kontrol === 8){
                 if (hrac1 > hrac2){
-                    aktualita.innerHTML = "Hra je u konce, vítez je hrac1";
-                }else{
-                    aktualita.innerHTML = "Hra je u konce, vítez je hrac2";
+                    aktualita.innerHTML = "Hra je u konce, vítez je hrac1.";
+                }
+                else if(hrac1 === hrac2){
+                    aktualita.innerHTML = "Hra je u konce, remíza.";
+
+                }
+                else{
+                    aktualita.innerHTML = "Hra je u konce, vítez je hrac2.";
                 }
                  
             }    
