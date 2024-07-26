@@ -1,6 +1,9 @@
 h1{
     text-align: center;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 40px;
 }
 .rada{
     display: flex;
@@ -11,7 +14,6 @@ body{
 }
 
 .karta{
-    font-family: cursive;
     margin: 10px;
     border: solid black 4px;
     width: 100px;
@@ -22,6 +24,7 @@ body{
     align-items: center;
     font-size: 70px;
     
+
 }
 
 .radahrac{
@@ -30,7 +33,6 @@ body{
 }
 
 .aktualita{
-    font-family: cursive;
     font-size: 35px;
     border-radius: 25px;
     background-color: #a288e3;
@@ -39,6 +41,10 @@ body{
     height: 50px;
     border:solid black 4px;
     margin: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 700;
+    font-style: italic;
 }
 
 .bod{
@@ -48,7 +54,6 @@ body{
 
 #body2,#body1{
     margin-top: 0px;
-    font-family: cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +64,10 @@ body{
     height: 70px;
     border:solid black 4px;
     font-size: 35px;
+   
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 700;
+    font-style: italic;
 }
 
 #karta1{

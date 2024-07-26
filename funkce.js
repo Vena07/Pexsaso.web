@@ -31,11 +31,11 @@ let uloz2 = null;
 function rada(){
     if(rada1 === 1){
         rada1 = 2;
-        narade = "Hráč 1";
+        narade = "Hráč1";
 
     } else if(rada1 === 2){
         rada1 = 1;
-        narade = "Hráč 2";
+        narade = "Hráč2";
 
     }
 }
@@ -72,8 +72,8 @@ function otoceni(id,x){
                     hrac2++;
                 }
                 poradi = 1;
-                document.getElementById("body1").innerHTML ="Hrac1 = " + hrac1;
-                document.getElementById("body2").innerHTML = "Hrac2 = " + hrac2;
+                document.getElementById("body1").innerHTML = "Hráč1 = " + hrac1;
+                document.getElementById("body2").innerHTML = "Hráč2  = " + hrac2;
             } else {
                 rada(); 
                 poradi = 1;
@@ -91,14 +91,14 @@ function otoceni(id,x){
             kontrol = hrac1 + hrac2;
             if(kontrol === 8){
                 if (hrac1 > hrac2){
-                    aktualita.innerHTML = "Hra je u konce, vítez je hrac1.";
+                    aktualita.innerHTML = "Hra je u konce, vítez je Hráč1";
                 }
                 else if(hrac1 === hrac2){
                     aktualita.innerHTML = "Hra je u konce, remíza.";
 
                 }
                 else{
-                    aktualita.innerHTML = "Hra je u konce, vítez je hrac2.";
+                    aktualita.innerHTML = "Hra je u konce, vítez je Hráč2";
                 }
                  
             }    
