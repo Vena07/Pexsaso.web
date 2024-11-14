@@ -3,10 +3,12 @@ h1{
     font-weight: 1000;
     font-size: 40px;
 }
+
 .rada{
     display: flex;
     justify-content: center;
 }
+
 body{
     background-color: #cefdff;
 }
@@ -40,6 +42,7 @@ body{
     border:solid black 4px;
     margin: 10px;
 }
+
 .bod{
     display: flex;
     justify-content: center;
